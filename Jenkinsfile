@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
             steps {
                 cd Java_WebApp-master/Java_WebApp-master/java-webapp
-                sh 'mvn clean compile'
+                sh 'mvn clean'
             }    
          }
                           
